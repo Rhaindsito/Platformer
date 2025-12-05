@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*Display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*Transform*/
+    margin: 40px;
+    height: calc(100vh - 80px);
+
+    /*Colors*/
+    background-color: #202020;
+}
+
+#main {
+    /*Display*/
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+    /*Transform*/
+    width: 1000px;
+    height: 600px;
+
+    /*Colors*/
+    background-color: #101010;
+}
+
+.block {
+    /*Transform*/
+    height: 50px;
+    width: 50px;
+    
+    /*Colors*/
+    background-color: #303030;
+    border: 2px solid #404040;
+}
